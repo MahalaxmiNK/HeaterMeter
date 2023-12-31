@@ -8,6 +8,10 @@ This project was generated with Angular CLI version 16.1.4. The page will displa
    accordingly.
 4. Also try changing [minTemperature] and [maxTemperature]. Observe the pointer remains at same regardless of the absolute value of min and max value.
 
+5. Please find the below screenshot of the page I have created for the reference.
+ ![image](https://github.com/MahalaxmiNK/HeaterMeter/assets/72446167/019354ee-4baf-4d8f-a9ab-79d0aae7f639)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
