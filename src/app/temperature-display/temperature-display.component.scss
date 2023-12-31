@@ -1,0 +1,33 @@
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.min-temp {
+  position: absolute;
+  top: 37.2%;
+  left: 46.6%;
+  transform: translate(-50%, -50%) rotate(30deg);
+  width: 2px;
+  height: 30px;
+  background-color: gray;
+}
+
+.max-temp {
+  position: absolute;
+  top: 37.6%;
+  left: 53.4%;
+  transform: translate(-50%, -50%) rotate(330deg);
+  width: 2px;
+  height: 30px;
+  background-color: gray;
+}
+
+.temperature-text {
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+}

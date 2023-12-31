@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'HeaterMeter'`, () => {
+  it(`should have as title 'Heater-Meter'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('HeaterMeter');
+    expect(app.title).toEqual('Heater-Meter');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('HeaterMeter app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Heater-Meter app is running!');
   });
 });
