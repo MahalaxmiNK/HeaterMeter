@@ -1,14 +1,6 @@
 # HeaterMeter
 
-This project was generated with Angular CLI version 16.1.4. The page will display the current target temperature of the heater. Here minimum temperature is considered as 0°C and maximum temperature is 40°C. The interactivity is not included as instructed in the task. So the current target temperature is set to 22°C. But if you want to check meter pointer for different target temperature and min and max temperature feel free to make changes as below.
-
-1. Go to src\app\app.component.html
-2. Go to line no. 5
-3. Change [targetTemperature] from 22 to any other current target temperature with the range 0-40.Observer the current target temperature pointer changing 
-   accordingly.
-4. Also try changing [minTemperature] and [maxTemperature]. Observe the pointer remains at same regardless of the absolute value of min and max value.
-
-5. Please find the below screenshot of the page I have created for the reference.
+ Please find the below screenshot of the page I have created for the reference.
  ![image](https://github.com/MahalaxmiNK/HeaterMeter/assets/72446167/019354ee-4baf-4d8f-a9ab-79d0aae7f639)
 
 
